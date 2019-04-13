@@ -41,5 +41,14 @@ h1 {
   height: 200px;
 }
 footer {
-  height: 200px;
+  height: 500px;
+  background-image: url('/img/radio.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
+
+
+
+

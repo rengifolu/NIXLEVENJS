@@ -1,0 +1,14 @@
+.parallax {
+    /* The image used */
+    background-image: url('/img/foto2.png');
+  
+    /* Full height */
+    height: 1500px;; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45em;
+    opacity: 0.1;
+  }

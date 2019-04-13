@@ -1,82 +1,108 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-  crossorigin="anonymous"
-/>
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/x.css" />
-<link rel="stylesheet" href="css/carrousel.css" />
-<script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript" src="js/carrousel.js"></script>
-<title>NYXLEVEN</title>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/carrousel.css" />
+  <link rel="stylesheet" href="css/caja3.css" />
+  <link rel="stylesheet" href="css/caja4.css" />
+  <link rel="stylesheet" href="css/caja5.css" />
+  <link rel="stylesheet" href="css/parallax.css">
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/carrousel.js"></script>
+  <title>NYXLEVEN</title>
 </head>
+
 <body>
-      <i
-        onclick="openMenu()"
-        class="fas fa-bars"
-        style="font-size:48px;color:#af0c79; margin: 20px ;cursor: pointer"
-      ></i>
-      <div>
-        <!-- <img src="/img/foto1.jpeg" alt="perfil"> -->
-        <div id="cajaTitulo" class="cajaTitulo">
-          <h1 id="titulo">NyxLeven</h1>
-        </div>
 
-      <div>
-        <a id="open-hide" class="open-hide">Menu</a>
-        <ul id="menu" class="menu">
-            <li><a href="#Music">Home</a></li>
-            <li><a href="#Music">Me</a></li>
-            <li><a href="#Music">Live</a></li>
-            <li><a href="#Music">Contact</a></li>
-        </ul>
-      </div>
-      </div>
-<br><br><br><br><br><br>
-      <div class="intermedio">
-
-      </div>
-
-      <!-- carrousel -->
-
-      <div class="w3-content w3-section" style="max-width:500px">
-            <img class="mySlides" src="img/1.jpg" >
-            <img class="mySlides" src="img/2.jpg" >
-            <img class="mySlides" src="img/3.jpg" >
-      </div>
-
-      <script>
-            var myIndex = 0;
-            carousel();
-            
-            
-            function carousel() {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              for (i = 0; i < x.length; i++) {
-                  x[i].style.display = "none";
-              }
-              myIndex++;
-              if (myIndex > x.length) {
-                  myIndex = 1;
-              }
-              x[myIndex - 1].style.display = "block";
-              setTimeout(carousel, 2000); // Change image every 2 seconds
-              }
-      
-            </script>
+  <!-- Menu -->
+  <!-- <i onclick="openMenu()" class="fas fa-bars" style="font-size:48px;color:#af0c79; margin: 20px ;cursor: pointer"></i> -->
 
 
-<footer></footer>
-    </body>
+
+
+  <div id="menu">
+      <ul>
+       <li><a href="..." title="...">Home</a></li>
+       <li><a href="..." title="...">Archivos</a></li>
+       <li><a href="..." title="...">Enlaces</a></li>
+       <li><a href="..." title="...">Acerca de</a></li>
+      </ul>
+     </div>
+
+  
+  <div>
+    <!-- <img src="/img/foto1.jpeg" alt="perfil"> -->
+    <div id="cajaTitulo" class="cajaTitulo">
+      <h1 id="titulo">NyxLeven</h1>
+    </div>
+
+  </div>
+
+
+
+  <br><br><br><br><br><br>
+  <div class="intermedio">
+
+  </div>
+
+  <!-- carrousel -->
+
+  <div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="img/1.jpg">
+    <img class="mySlides" src="img/2.jpg">
+    <img class="mySlides" src="img/3.jpg">
+  </div>
+
+
+
+
+  <div class="parallax"></div>
+  <div class="caja3">
+  </div>
+  <div class="parallax"></div>
+
+  <div class="caja4">
+  </div>
+
+  <div class="parallax"></div>
+  <div class="caja5">
+    <iframe width="100%" height="1000" src="https://www.youtube.com/embed/Lg0Mkj4D9xo" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="parallax"></div>
+
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {
+        myIndex = 1;
+      }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+
+  <footer></footer>
+</body>
 </body>
 
 </html>

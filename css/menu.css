@@ -1,7 +1,58 @@
-.menu {
-  font-size: 1em;
+.vertical-menu {
+  width: 200px;
 }
 
-ul {
-  list-style: none;
+.vertical-menu a {
+  background-color: rgb(208, 111, 211);
+  color: black;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: rgb(117, 107, 107);
+}
+
+.vertical-menu a.active {
+  background-color: rgb(131, 238, 134);
+  color: white;
+}
+
+
+
+
+
+
+
+
+#menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 400px;
+  font-family: Arial, sans-serif;
+  font-size: 40pt;
+}
+
+
+#menu ul li {
+  background-color: #666;
+}
+
+
+#menu ul li a {
+  color: #ccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px 10px 10px 20px;
+}
+
+
+
+#menu ul li a:hover {
+  background: #000;
+  border-left: 10px solid #333;
+  color: #fff;
 }
