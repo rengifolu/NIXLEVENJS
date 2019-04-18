@@ -1,6 +1,25 @@
 .caja5{
+    width: 100%;
     height: 1000px;
-/*     background-image: url('https://youtu.be/Lg0Mkj4D9xo');
-    background-repeat: no-repeat;*/
+
     background-size: cover; 
 }
+
+iframe{
+    width: 100%;
+    height: 1000px;
+}
+@media screen and (max-width:414px){
+    .caja5{
+        width: 100%;
+        height: 300%;
+        background-size: cover; 
+    }
+
+
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+    
+    }

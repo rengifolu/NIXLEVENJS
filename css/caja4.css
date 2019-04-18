@@ -3,3 +3,14 @@
     background-image: url('/img/5.webp');
     
 }
+
+@media screen and (max-width:414px){
+
+    .caja4{
+        width: 100%;
+        height: 500px;
+        background-image: url('/img/1.jpg');
+        
+    }
+
+    }

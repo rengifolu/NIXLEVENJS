@@ -4,5 +4,19 @@
   display: none;
   width: 1000px;
   height: 500px;
-  margin-left: 100%;
+  margin-left: 50%;
+}
+
+
+@media screen and (max-width:414px){
+
+@import "https://www.w3schools.com/w3css/4/w3.css" print;
+.mySlides {
+  box-shadow: 10px 10px 10px 10px #af0c79;
+  display: none;
+  width: 300px;
+  height: 150px;
+  margin-left: 10%;
+}
+
 }

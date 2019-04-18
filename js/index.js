@@ -9,6 +9,7 @@ window.onload = function inic() {
   function myFunction(x) {
     if (x.matches) {
       // If media query matches
+      interfaceMovil();
     } else {
       // SI ES MAS GRANDE Q IPHONE
       primero();
@@ -16,6 +17,21 @@ window.onload = function inic() {
   }
 };
 
+
+/*
+Funcion que indica parametros cuando se esta en version movil
+*/
+function interfaceMovil(){
+  titulo = document.getElementById("titulo");
+  titulo.style.fontSize = "4em";
+  titulo.style.transitionDuration = "2s";
+  titulo.style.opacity = 1;
+}
+
+
+/*
+Funcion que indica parametros cuando se esta en version escritorio
+*/
 function primero() {
 
   titulo = document.getElementById("titulo");

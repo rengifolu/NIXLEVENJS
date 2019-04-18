@@ -8,14 +8,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/* img {
-  align-content: center;
-  position: absolute;
-  width: 1000px;
-  height: 1500px;
-  opacity: 0.1;
-  padding-top: -150px;
-} */
 
 .cajaTitulo {
   margin-top: 15%;
@@ -37,6 +29,13 @@ h1 {
   text-shadow: 10px 10px 20px #6e6c6c;
 }
 
+
+.parallax > h1{
+  padding-top: 50px;
+}
+
+
+
 .intermedio {
   height: 200px;
 }
@@ -48,7 +47,56 @@ footer {
 }
 
 
+@media screen and (max-width:414px){
 
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(24, 25, 26);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .cajaTitulo {
+    margin-top: 30%;
+    box-shadow: 16px 0px 96px 16px #af0c79;
+    width: 100%;
+    height: 100%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  h1 {
+    opacity: 0;
+    text-align: center;
+    font-size: 5em;
+    /* font-family: "Latin Modern Roman 10";
+      font-style: oblique; */
+    color: rgb(99, 201, 68);
+    text-shadow: 10px 10px 20px #6e6c6c;
+  }
+
+  .parallax > h1{
+      padding-top: 50px;
+  }
+
+ 
+  
+  .intermedio {
+    height: 50px;
+  }
+
+  footer {
+    height: 200px;
+    background-image: url('/img/radio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
 
 
 
